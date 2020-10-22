@@ -1,0 +1,87 @@
+#base {
+background-image: url('imagens/background.jpg');
+background-size: 1920px 1080px;
+
+}
+#logo{
+  width: 80%;
+  height: 80%;
+}
+.item{
+  flex-basis: 30%;
+  cursor: pointer;
+}
+header{
+  background-color: black;
+}
+
+header h1{
+  font-family: "Comic sans MS";
+  font-size: 3em;
+  color : rgb(255, 255, 255);
+  margin-right: 10px;
+}
+
+header h2{
+   font-size: 2em;
+}
+.flex{
+  display: flex;
+}
+.horizontal{
+  flex-direction: row;
+}
+.vertical{
+  flex-direction: column;
+}
+.center{
+  align-items: center;
+}
+.around{
+  justify-content: center;
+}
+.space{
+  justify-content: space-between;
+}
+img {
+  padding: 5px; 
+  width: 80%;
+}
+
+img:hover {
+  box-shadow: 0 0 1px 1px white
+}
+
+h1{
+  font-family: "Comic sans MS";
+  font-size: larger;
+  color : rgb(255, 255, 255);
+}
+h2{
+  font-family: "Comic sans MS";
+  font-size: larger;
+  color : rgb(255, 255, 255); 
+  text-align: center;
+}
+.list{
+  width: 100%;
+}
+.main{
+  height: 70vh;
+}
+#frame{
+  border:none;
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+}
+.bord{
+  border-top: 2px solid white;
+  margin-top: 5%;
+}
+.basis25{
+  flex-basis: 25%;
+}
+.basis40{
+  flex-basis: 40%;
+}

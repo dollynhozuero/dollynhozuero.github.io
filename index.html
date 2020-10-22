@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="style.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Estrela Negra:</title>
+  </head>
+
+ <body id="base">
+   <script src="script.js"></script>
+    <header class="flex horizontal center">
+      <div class="item"><a href="index.html"><img id="logo" src="imagens/estrela negra.jpg"></a></div>
+      <div class="flex vertical center">
+        <h1>Estrela negra</h1>
+        <h2>tudo sobre</h2>
+      </div>
+    </header>
+
+
+    <div class="flex horizontal center">
+      <div class="flex vertical center list">
+        <h1>Campeoes</h1>
+        <section class="container flex start">
+
+          <div class="item" onclick="goToChamp('thresh')">
+            <img src="imagens/thresh imagem.png" alt="thresh"> 
+            <h2>Thresh</h2>
+          </div>
+          <div class="item" onclick="goToChamp('mordekaiser')">
+            <img src="imagens/mordekaiser imagem.jpg"   alt="mordekaiser">
+            <h2>Mordekaiser</h2>
+          </div>
+          <div class="item" onclick="goToChamp('jhin')">
+            <img src="imagens/jhin imagem.jpg" alt="jhin">
+            <h2>Jhin</h2>
+          </div>
+          <div class="item" onclick="goToChamp('lux')">
+            <img src="imagens/lux imagem.jpg" alt="lux">
+            <h2>Lux</h2>
+          </div>
+          <div class="item" onclick="goToChamp('shaco')">
+            <img src="imagens/shaco imagem.jpg" alt="shaco">
+            <h2>Shaco</h2>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+    <div class="flex vertical center main">
+      <iframe id="frame" src="" scrolling="no"></iframe>
+    </div>
+ </body>
+</html>
